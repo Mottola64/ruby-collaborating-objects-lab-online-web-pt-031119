@@ -19,7 +19,7 @@ def save
 end
 
 def print_songs
-  @songs
+  songs.each {|song| puts song.name}
 end
 
 end
