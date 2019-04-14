@@ -10,4 +10,8 @@ def add_song(song)
   @songs << song
 end
 
+def save(name)
+  @@all << name
+end
+
 end
