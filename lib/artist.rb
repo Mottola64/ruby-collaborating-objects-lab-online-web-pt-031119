@@ -8,6 +8,7 @@ end
 def add_song
   song = Song.new
   @@songs << song
+  @@songs
 end
 
 end
