@@ -18,4 +18,8 @@ def save
   @@all << self
 end
 
+def print_songs
+  @songs
+end
+
 end
